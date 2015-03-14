@@ -1,0 +1,110 @@
+html, body { margin: 0; height: 100%; }
+
+@font-face {
+  font-family: 'garamond-pro';
+  src: url('fonts/garamond-pro/fonts/garamond-pro/agaramondpro-regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/garamond-pro/agaramondpro-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/garamond-pro/agaramondpro-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/garamond-pro/agaramondpro-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/garamond-pro/agaramondpro-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+  }
+
+/*.layout { width: 100%; height: 100%; }*/
+
+/*.shadow.leftshadow { background: transparent url('../images/shadow_left.gif') repeat-y right top; }
+.shadow.rightshadow { background: transparent url('../images/shadow_right.gif') repeat-y left top; }*/
+
+.body { width: 60em; }
+
+.header { height: 155px; background: transparent url(../images/header_bg.png) no-repeat; background-position: 250px 0; 
+margin: 0 auto; width: 960px; }
+
+#logo { float: left; display: block; margin: 1em 0 0 2em; }
+#logo, #logo:link, #logo:visited, #logo:hover, #logo:active, #logo:hover { border: none; display: block; }
+#logo img { border: 0; }
+
+#main_menu { margin: 0 0 0 346px; padding: 40px 0 0 0; list-style: none; }
+  #main_menu li { display: inline-block; *display: inline; *vertical-align: top; *zoom: 1; font-size: 1.5em; line-height: 2em; margin: 0 0.3em; }
+    #main_menu li a { color: rgba(0,0,0,0.5); font-family: 'garamond-pro', helvetica, serif; font-size: 19pt; text-decoration: none; margin: 0 0 0 38px; padding-bottom: 3px; }
+    #main_menu li a#active, #main_menu li a:hover, #main_menu li a.you_are_here { color: rgba(0,0,0,.4); background: transparent; border-bottom: 1px solid rgba(0,0,0,.4); }
+
+.content { width: 52em; margin: 0 auto; min-height: 435px; padding: 0; clear: both; }
+  .content p { text-align: justify; }
+  .content .polaroid { margin: 1em auto 2em; padding: 1em 1em 0 1em; background: white; border: solid 1px #eee; border-right: solid 1px #999; border-bottom: solid 1px #999; }
+    .content .polaroid p { width: 80%; margin: 1em auto; text-align: center; }
+    .content .polaroid img { padding: 0; border: none; }
+
+  #photos .polaroid { margin: 1em auto 10em; padding: 1em 1em 0 1em; }
+
+
+#footer { padding: 2em 0; width: 100%; clear: both; text-align: center; }
+
+#flash  { position: absolute; top: 9em; left: 10em; width: 54em; }
+  #flash img { display: block; float: left; margin: 0 1em; }
+
+body {
+  color: #333;
+  font: normal normal 16px/1.6em "Lucida Sans Unicode", "Lucida Grande", "Trebuchet MS", sans-serif;
+}
+
+
+h1, h2, h3, h4, legend, label, strong, .heading, .scd_category {
+  color: #620e1b;
+}
+
+h1, h2, #scd .scd_category { font-family: 'garamond-pro', helvetica, serif; font-weight: 400; text-align: center; }
+
+h1 { font-size: 20pt; padding-bottom: .6em; }
+
+#scd .scd_container { font-family: 'garamond-pro', helvetica, serif; width: 32em; font-size: 19px; }
+
+
+ul {
+  list-style: none;
+}
+
+a, a:link, a:visited, a:hover, a:active, a:hover {
+  color: #111;
+}
+
+a:hover {
+  color: #620e1b; background-color: transparent;
+}
+
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.relative { position: relative; margin: 0; padding: 0; }
+
+#photos {
+  margin: 0 auto;
+}
+
+#photos, #photos div {
+  text-align: center;
+}
+
+#photos p, #nav p {
+  text-align: center;
+}
+
+#photos p {
+  background-color: white;
+}
+
+.content#contact, .content#contact p { text-align: center; }
+
+.content#contact h1 { margin-bottom: 20px; padding-top: 6px; }
+
+.content#gallery { padding-top: 8px; }
+
+.content#home { padding-top: 20px; }
+
+.content#vineyard { text-align: center; padding-top: 6px; }
+.content#vineyard p { padding: 0 2em; }
+
+.content#vineyard img, .content#vineyard iframe { padding: 10px 0; }
